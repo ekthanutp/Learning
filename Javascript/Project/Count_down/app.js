@@ -10,7 +10,7 @@ const secElem = document.getElementById('Second');
 function countDown(){
 
     const now = new Date().getTime();
-    const setDate = new Date('October 18, 2023 17:00:00').getTime();
+    const setDate = new Date('October 18, 2024 17:00:00').getTime();
     const timeLeft = setDate - now;
 
     daysElem.innerText = Math.floor(timeLeft / day);
