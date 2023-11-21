@@ -37,18 +37,15 @@ body{
     left: 0;
     width: 150px;
     height: 100px;
+}
 
-<<<<<<< HEAD:practice_landing/project1_landing_page/style.css
-a {
+a{
     text-decoration: none;
   }
+
   a:visited {
     color: white;
-  }
-=======
-
 }
->>>>>>> 24d92b3955a5dbf02d3f2b34d917acb22c403f49:practice_landing/project1/style.css
 h1{
     font-size: 3em;
     font-weight: bold;
