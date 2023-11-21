@@ -11,6 +11,5 @@ const result = document.getElementById("result")
         const times = Math.abs(endDate - startDate);
         const days = Math.floor(times/(1000*60*60*24));
         result.innerText = `ห่างกัน ${days} วัน`
-        console.log(days)
+        console.log(days);
     })
-
