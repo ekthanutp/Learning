@@ -7,13 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    height: auto;
+    height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     background-image: url("wallpaper.png");
     background-size:cover;
-    background-repeat:inherit;
+    background-repeat:no-repeat;
     background-position: center;
 }
 .wrapper{
@@ -29,13 +29,26 @@ body{
     text-align: center;
     margin-bottom: 5vh;
 }
+.logo{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100px;
 
+<<<<<<< HEAD:practice_landing/project1_landing_page/style.css
 a {
     text-decoration: none;
   }
   a:visited {
     color: white;
   }
+=======
+
+}
+>>>>>>> 24d92b3955a5dbf02d3f2b34d917acb22c403f49:practice_landing/project1/style.css
 h1{
     font-size: 3em;
     font-weight: bold;
@@ -49,7 +62,7 @@ h2{
 
 .main{
     height: 40vh;
-    width: 50vw;
+    width: 30vw;
     backdrop-filter: blur(200px);
     margin-bottom: 10vh;
     display: grid;
@@ -105,7 +118,7 @@ h2{
     transition: 1s;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
     
    /*  */
    *{
@@ -113,21 +126,29 @@ h2{
    }
     body{
         margin: 0;
-        height: auto;
-        background-size:inherit
+        height: 100vh;
+        background-size:cover
     }
     .header{
         height: auto;
+    }
+    .logo{
+        visibility: hidden;
+    }
+    h1{
+        letter-spacing: 0;
     }
     .main {
         height: auto;
         width: 100vw;
         display: flex;
         flex-direction: column;
-        margin-bottom: 5vh;
     }
     .footer{
         width: 100%;
-        
+    }
+
+    .footer i{
+        width: 100%;
     }
 }
