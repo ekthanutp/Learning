@@ -1,62 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kanit:wght@100;300&family=Krub:ital@1&family=Mali&family=Noto+Sans+Thai&family=Poppins&display=swap');
-body{
+/* สิ่งที่อยู่ตรงนี้ จะมีไว้แค่ให้ dev อ่าน */
+/* 1. แต่งใคร ? (id, class, DOM) 2. แต่งอะไร ? */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+@font-face {
     font-family: 'kanit';
-    font-weight: bold;
-}
-.container{
-    width: 400px;
+  }
+  
+  body {
+    font-family: 'kanit';
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    background-color:cadetblue;
-}
-#register{
-    color: #2962FF;
+    background-color:antiquewhite;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    font-size: 30px;
     text-align: center;
-    font-size: 24px;
-    font-weight:bolder;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#register::first-letter{
-    font-size: 40px;
-}
-
-.header-form{
-    width: 100px;
-}
-
-.flex{
+  }
+  
+  .header-form {
+    width: 140px;
+  }
+  
+  .flex {
     display: flex;
-}
-.form-input{
+  }
+  
+  .form-input {
     margin-bottom: 10px;
-}
-
-input.form,textarea{
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  input.form, textarea {
     border: 1px gainsboro solid;
     width: 100%;
-}
-
-.center{
-    text-align: center;
-}
-
-button{
+  }
+  
+  .button {
     border: 0;
-    width: 100%;
+    width: 50%;
     height: 40px;
     background-color: #2962FF;
     color: white;
-}
-
-p{
-    width: 400px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aliceblue;
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+    }
+  
+    .header {
+      font-size: 24px;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
