@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="register">Register form</div>
+      <div class="flex form-input">
+        <div class="header-form">ชื่อจริง</div>
+        <input type="text" class="form" />
+      </div>
+      <div class="flex form-input">
+        <div class="header-form">นามสกุล</div>
+        <input type="text" class="form" />
+      </div>
+      <div class="flex form-input">
+        <div class="header-form">อายุ</div>
+        <input type="number" min="0" max="100" class="form" />
+      </div>
+      <div class="flex gender form-input">
+        <div class="header-form">เพศ</div>
+        <div>
+          <input name="gender" type="radio" />ชาย
+          <input name="gender" type="radio" />หญิง
+          <input name="gender" type="radio" />ไม่ระบุ
+        </div>
+      </div>
+      <div class="form-input">
+        สิงที่สนใจ
+        <div><input name="interest" type="checkbox" />หนังสือ</div>
+        <div><input name="interest" type="checkbox" />วีดีโอเกม</div>
+        <div><input name="interest" type="checkbox" />การเมือง</div>
+      </div>
+      <div class="form-input">
+        คำอธิบายเพิ่มเติม
+        <div>
+          <p contenteditable="true"></p>
+        </div>
+      </div>
+      <div class="form-input center">
+        <a href="https://shopee.com">T&C</a>
+      </div>
+      <div class="center">
+      <button>ส่งข้อมูล</button>
+    </div>
+    </div>
+  </body>
+</html>
