@@ -95,12 +95,13 @@ h2{
 }
 
 .footer{
-    height: 100%;
+    height: 5em;
     width: 40%;
     color: white;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: auto 0;
 }
 
 .footer i {
