@@ -29,8 +29,6 @@ function addDataToList(transactions){
     result = formatNumber(Math.abs(transactions.amount));
     item.innerHTML = `${transactions.text} <span>${symbol}${result}</span><button class="delete-btn" onclick="removeData(${transactions.id})">x</button>`;
     list.appendChild(item)
-
- 
 }
 
 function formatNumber(num) {
@@ -49,7 +47,6 @@ function calculateMoney(){
     balance.innerHTML = `฿`+formatNumber(total);
     money_plus.innerHTML = `฿`+formatNumber(income);
     money_minus.innerHTML = `฿`+formatNumber(expense);
-    console.log(total);
 }
 function removeData(id){
     transactions = transactions.filter(transactions=>transactions.id !== id);
@@ -71,6 +68,7 @@ function addTransaction(e){
         text.value =''
         amount.value=''
     }
+    
 }
 
 form.addEventListener('submit',addTransaction)

@@ -17,13 +17,13 @@ body{
     width: 100vw;
 }
 
-.btn{
+/* .btn{
     background-color: orange;
     cursor: pointer;
     border-radius: 5px;
     font-size: 12px;
     padding: 5px 12px;
-}
+} */
 .money-img{
     width: 15em;
 }
