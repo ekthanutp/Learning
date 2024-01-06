@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+}
+h5{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+div.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.cal{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    margin-bottom: 2rem;
+
+}
+div.cal div{
+    margin: 2px 10px;
+}
+
+div.item{
+    text-align: center;
+    margin: 2rem;
+}
+
+.aws{
+    font-size: 32px;
+}
+
+select{
+    width: 100%;
+    text-align: center;
+}

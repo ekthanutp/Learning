@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>หาน้ำหนักเหล็ก</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>การหาน้ำหนักเหล็กแผ่น</h1>
+      <div class="item">
+        <h2>น้ำหนักเหล็กแผ่น</h2>
+        <img src="img/sheets.png" alt="" />
+        <div class="cal">
+          <div>
+            <input type="number" id="sheetsT" /><br />
+            <h5>ความหนา (T)</h5>
+          </div>
+          <label>x</label>
+          <div>
+            <input type="number" id="sheetsW" /><br />
+            <h5>กว้าง (W)</h5>
+          </div>
+          <label>x</label>
+          <div>
+            <input type="number" id="sheetsL" /><br />
+            <h5>ยาว (L)</h5>
+          </div>
+          <label>x</label>
+          <div>
+            <select name="" id="sheetsD">
+                <option value="SS400">SS400</option>
+                <option value="SUS304">SUS304</option>
+                <option value="SUSxxx">XXXX</option>
+              </select>
+              <h5>ความหนาแน่น (g/cm<sup>3</sup>)</h5>
+          </div>
+          <button>คำนวน</button>
+        </div>
+        <label for="" id="awsSheet" class="aws">X</label>
+      </div>
+      <div class="item">
+        <h2>น้ำหนักเหล็กแผ่นวงกลมแบบมีรูกลาง</h2>
+        <img src="img/roundc.png" alt="" />
+        <div class="cal">
+          <div>
+            <input type="number" id="roundcT" /><br />
+            <h5 for="">ความหนา (T)</h5>
+          </div>
+          <label for="">x</label>
+          <div>
+            <input type="number" id="roundcOD" /><br />
+            <h5 for="">OD</h5>
+          </div>
+          <label for="">x</label>
+          <div>
+            <input type="number" id="roundcID" /><br />
+            <h5 for="">ID</h5>
+          </div>
+          <label for="">x</label>
+          <div>
+            <select name="" id="sheetsD">
+                <option value="SS400">SS400</option>
+                <option value="SUS304">SUS304</option>
+                <option value="SUSxxx">XXXX</option>
+              </select>
+              <h5>ความหนาแน่น (g/cm<sup>3</sup>)</h5>
+          </div>
+          <button>คำนวน</button>
+        </div>
+        <label for="" id="awsRoundc" class="aws">X</label>
+      </div>
+      <div class="item">
+        <h2>น้ำหนักเหล็กแผ่นวงกลม</h2>
+        <img src="img/round.png" alt="" />
+        <div class="cal">
+          <div>
+            <input type="number" id="roundDeg" /><br />
+            <label for="">Ø</label>
+          </div>
+          <label for="">x</label>
+          <div>
+            <input type="number" id="roundT" /><br />
+            <label for="">ความหนา (T)</label>
+          </div>
+          <label for="">x</label>
+          <div>
+            <select name="" id="roundD">
+                <option value="SS400">SS400</option>
+                <option value="SUS304">SUS304</option>
+                <option value="SUSxxx">XXXX</option>
+              </select>
+              <h5>ความหนาแน่น (g/cm<sup>3</sup>)</h5>
+          </div>
+          <button>คำนวน</button>
+        </div>
+        <label for="" id="awsRound" class="aws">X</label>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
