@@ -64,7 +64,7 @@ button{
 
 @media screen and (max-width: 800px) {
     .logo{
-        
+        width: 50%;
     }
     .header{
         position: relative;
